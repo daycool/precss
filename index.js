@@ -2,11 +2,11 @@ var postcss = require('postcss');
 
 // list of all plugins
 var processors = [
-	{
-		plugin:    require('postcss-partial-import'),
-		namespace: 'import',
-		defaults:  {}
-	},
+	//{
+	//	plugin:    require('postcss-partial-import'),
+	//	namespace: 'import',
+	//	defaults:  {}
+	//},
 	{
 		plugin:    require('postcss-mixins'),
 		namespace: 'mixins',
